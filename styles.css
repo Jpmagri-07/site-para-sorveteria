@@ -1,0 +1,94 @@
+*{
+    background: #E71970;
+}
+.header{
+    display: flex;
+}
+.header h1{
+    color: #5E345F;
+    font-size: 35px;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.btn {
+    padding-right: 10%;
+    border: none; /* Remove a borda */
+    outline: none; /* Remove o contorno ao focar */
+    color: black; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    border-radius: 10%;
+    cursor: pointer; /* Cursor de mão ao passar o mouse */
+    margin: 5px; /* Espaçamento entre os botões */
+    transition: background-color 0.3s ease; /* Transição suave na cor de fundo */
+}
+
+.btn:hover {
+    background-color: #219E0D; /* Cor de fundo ao passar o mouse */
+}
+.buttons{
+    padding-left: 50%;
+
+}
+.questrial-regular {
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  /* Remove as margens de rolagem */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Remove a barra de rolagem */
+    height: 100%;
+}
+
+/* Estilo do círculo */
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #219E0D;
+    clip-path: circle(50% at bottom right);
+}
+.textos{
+    display: flex;
+    padding-top: 60px;
+}
+span{
+    color: #219E0D;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    padding-left: 30px;
+    padding: 8px;
+}
+h2{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    padding-left: 30px;
+}
+ p{
+    color: white;
+    padding-left: 30px;
+    height: 80px;
+    padding-bottom: 20px;
+}
+.bta button{
+    color: white;
+    background-color: #5E345F;
+    text-decoration: none;
+    margin-left: 90px;
+    border-radius: 15%;
+}
+.btn:hover{
+    background-color: #e364e6;
+}
